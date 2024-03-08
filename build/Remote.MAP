@@ -1,0 +1,299 @@
+
+Linker Version 8.7.7.220718
+Input Object File: d:\project\remote\build\MAIN.OBJ
+Input Object File: d:\project\remote\build\STARTUP1_L.OBJ
+Input Object File: d:\project\remote\build\DELAY.OBJ
+Input Object File: d:\project\remote\build\GPIO.OBJ
+Input Object File: d:\project\remote\build\SYSTEM.OBJ
+Input Object File: d:\project\remote\build\TIMER.OBJ
+Input Object File: d:\project\remote\build\UART.OBJ
+Input Object File: d:\project\remote\build\PCF8814.OBJ
+
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB
+Input Library File: C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\v3_lmrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0000h    0001h      CODE               @code (d:\project\remote\build\MAIN.OBJ)
+     00h     0001h     0004h    0004h      CODE               @ROMDATA_BASE (d:\project\remote\build\STARTUP1_L.OBJ)
+     00h     0005h     0013h    000fh      CODE               _msDelay (d:\project\remote\build\DELAY.OBJ)
+     00h     0014h     0017h    0004h      CODE               @Timer_code (d:\project\remote\build\TIMER.OBJ)
+     00h     0018h     0038h    0021h      CODE               @start (d:\project\remote\build\MAIN.OBJ)
+     00h     0039h     006ch    0034h      CODE               @crom (d:\project\remote\build\MAIN.OBJ)
+     00h     006dh     0090h    0024h      CODE               @crom (d:\project\remote\build\TIMER.OBJ)
+     00h     0091h     01b9h    0129h      CODE               @crom (d:\project\remote\build\PCF8814.OBJ)
+     00h     01bah     0267h    00aeh      CODE               _main (d:\project\remote\build\MAIN.OBJ)
+     00h     0268h     0275h    000eh      CODE               _initGPIO (d:\project\remote\build\GPIO.OBJ)
+     00h     0276h     0281h    000ch      CODE               _initSystem (d:\project\remote\build\SYSTEM.OBJ)
+     00h     0282h     0295h    0014h      CODE               _initTimer (d:\project\remote\build\TIMER.OBJ)
+     00h     0296h     0385h    00f0h      CODE               _startSendCode (d:\project\remote\build\TIMER.OBJ)
+     00h     0386h     038ah    0005h      CODE               _stopSendCode (d:\project\remote\build\TIMER.OBJ)
+     00h     038bh     03c7h    003dh      CODE               _Timer (d:\project\remote\build\TIMER.OBJ)
+     00h     03c8h     03e5h    001eh      CODE               _STE2007_SPI_TRANSFER9 (d:\project\remote\build\PCF8814.OBJ)
+     00h     03e6h     03edh    0008h      CODE               _STE2007_CHIPSELECT (d:\project\remote\build\PCF8814.OBJ)
+     00h     03eeh     03fch    000fh      CODE               _ste2007_issuecmd (d:\project\remote\build\PCF8814.OBJ)
+     00h     03fdh     040dh    0011h      CODE               _ste2007_issue_compoundcmd (d:\project\remote\build\PCF8814.OBJ)
+     00h     040eh     0422h    0015h      CODE               _ste2007_setxy (d:\project\remote\build\PCF8814.OBJ)
+     00h     0423h     043ah    0018h      CODE               _ste2007_clear (d:\project\remote\build\PCF8814.OBJ)
+     00h     043bh     048bh    0051h      CODE               _ste2007_init (d:\project\remote\build\PCF8814.OBJ)
+     00h     048ch     04c0h    0035h      CODE               _ste2007_write (d:\project\remote\build\PCF8814.OBJ)
+     00h     04c1h     04dbh    001bh      CODE               _ste2007_putchar (d:\project\remote\build\PCF8814.OBJ)
+     00h     04dch     0501h    0026h      CODE               _ste2007_putText (d:\project\remote\build\PCF8814.OBJ)
+     00h     0502h     050bh    000ah      CODE               __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     050ch     051eh    0013h      CODE               _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     051fh     052eh    0010h      CODE               _CROM2PROM (CROM2PROM)
+     00h     0080h     0080h    0001h      DATA     46        @data_ra (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0081h     0081h    0001h      DATA     28        @data_rb (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0082h     0082h    0001h      DATA     28        @data_rc (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0083h     0083h    0001h      DATA     20        @data_rd (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0084h     0084h    0001h      DATA     20        @data_re (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0085h     0085h    0001h      DATA     12        @data_rf (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0086h     0086h    0001h      DATA     13        @data_rg (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0087h     0087h    0001h      DATA     2         @data_rh (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0088h     0088h    0001h      DATA     2         @data_r114 (isr:ra~rh)
+     00h     0089h     0089h    0001h      DATA     2         @data_r214 (isr:ra~rh)
+     00h     008ah     008ah    0001h      DATA     3         @data_ra14 (isr:ra~rh)
+     00h     008bh     008bh    0001h      DATA     5         @data_rb14 (isr:ra~rh)
+     00h     008ch     008ch    0001h      DATA     5         @data_rc14 (isr:ra~rh)
+     00h     00a0h     00a0h    0001h      DATA     7         @HCCINIT___sendingStatus_2118 (d:\project\remote\build\MAIN.OBJ)
+     00h     00a1h     00a1h    0001h      DATA     5         @HCCINIT0_txCunter (d:\project\remote\build\TIMER.OBJ)
+     01h     0080h     00e3h    0064h      DATA     0.04      @HCCINIT0_txCode (d:\project\remote\build\TIMER.OBJ)
+     01h     00e4h     00e4h    0001h      DATA     2         @data_r314 (isr:ra~rh)
+     01h     00e5h     00e5h    0001h      DATA     2         @data_r414 (isr:ra~rh)
+     01h     00e6h     00e6h    0001h      DATA     2         @data_r514 (isr:ra~rh)
+     01h     00e7h     00e7h    0001h      DATA     2         @data_r614 (isr:ra~rh)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     00a0h     00a0h    0000h      LOCAL    0         @dummy (d:\project\remote\build\MAIN.OBJ)
+     00h     009fh     009fh    0001h      LOCAL    11        _main (d:\project\remote\build\MAIN.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _initSystem (d:\project\remote\build\SYSTEM.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _initGPIO (d:\project\remote\build\GPIO.OBJ)
+     00h     0096h     0096h    0000h      LOCAL    0         _ste2007_init (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008eh    0002h      LOCAL    5         _msDelay (d:\project\remote\build\DELAY.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         __DELAYX (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     008fh     0091h    0003h      LOCAL    12        _ste2007_issuecmd (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008dh    0001h      LOCAL    1         _STE2007_CHIPSELECT (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008eh    0002h      LOCAL    6         _STE2007_SPI_TRANSFER9 (d:\project\remote\build\PCF8814.OBJ)
+     00h     0094h     0095h    0002h      LOCAL    3         _ste2007_clear (d:\project\remote\build\PCF8814.OBJ)
+     00h     0092h     0093h    0002h      LOCAL    3.5       _ste2007_setxy (d:\project\remote\build\PCF8814.OBJ)
+     00h     008fh     0091h    0003h      LOCAL    5         _ste2007_issue_compoundcmd (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _initTimer (d:\project\remote\build\TIMER.OBJ)
+     00h     0094h     009ah    0007h      LOCAL    9.8571    _ste2007_putText (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _Crom2Prom (CROM2PROM)
+     00h     008fh     0093h    0005h      LOCAL    2.4       _ste2007_write (d:\project\remote\build\PCF8814.OBJ)
+     00h     0093h     009eh    000ch      LOCAL    2.6667    _startSendCode (d:\project\remote\build\TIMER.OBJ)
+     00h     008dh     0092h    0006h      LOCAL    4.1667    _builtin_holtek_mulhi3_isr00 (C:\Program Files\Holtek MCU Development Tools\HT-IDE3000V8.x\LIB\LIBHOLTEKGCC.LIB)
+     00h     0094h     0098h    0005h      LOCAL    2.4       _ste2007_putchar (d:\project\remote\build\PCF8814.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _stopSendCode (d:\project\remote\build\TIMER.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         @dummy20 (d:\project\remote\build\TIMER.OBJ)
+     00h     008dh     008dh    0000h      LOCAL    0         _Timer (d:\project\remote\build\TIMER.OBJ)
+
+     Public Symbols Information
+     Address            Public by Name
+     0520h              _Crom2Prom
+     051fh              _Crom2PromNext
+     03e6h              _STE2007_CHIPSELECT
+     03c8h              _STE2007_SPI_TRANSFER9
+     038bh              _Timer
+     0505h              __DELAYX0
+     0504h              __DELAYX1
+     0504h              __DELAYX2
+     0503h              __DELAYX3
+     0503h              __DELAYX4
+     0502h              __DELAYX5
+     0502h              __DELAYX6
+     050ch              _builtin_holtek_mulhi3_isr00
+     0268h              _initGPIO
+     0276h              _initSystem
+     0282h              _initTimer
+     0091h              _lcd_Font
+     01bah              _main
+     0005h              _msDelay
+     008dh              _msDelay_2
+     0089h              _remoteData
+     006dh              _remoteTiming
+     0296h              _startSendCode
+     0423h              _ste2007_clear
+     043bh              _ste2007_init
+     03fdh              _ste2007_issue_compoundcmd
+     03eeh              _ste2007_issuecmd
+     008fh              _ste2007_issuecmd_2
+     04dch              _ste2007_putText
+     04c1h              _ste2007_putchar
+     040eh              _ste2007_setxy
+     0092h              _ste2007_setxy_2
+     048ch              _ste2007_write
+     0386h              _stopSendCode
+     0088h              r114
+     0089h              r214
+     01e4h              r314
+     01e5h              r414
+     01e6h              r514
+     01e7h              r614
+     0080h              ra
+     008ah              ra14
+     0081h              rb
+     008bh              rb14
+     0082h              rc
+     008ch              rc14
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0000h              startup_value_1
+
+     Address            Public by Value
+     0000h              startup_value_1
+     0005h              _msDelay
+     006dh              _remoteTiming
+     0080h              ra
+     0081h              rb
+     0082h              rc
+     0083h              rd
+     0084h              re
+     0085h              rf
+     0086h              rg
+     0087h              rh
+     0088h              r114
+     0089h              r214
+     0089h              _remoteData
+     008ah              ra14
+     008bh              rb14
+     008ch              rc14
+     008dh              _msDelay_2
+     008fh              _ste2007_issuecmd_2
+     0091h              _lcd_Font
+     0092h              _ste2007_setxy_2
+     01bah              _main
+     01e4h              r314
+     01e5h              r414
+     01e6h              r514
+     01e7h              r614
+     0268h              _initGPIO
+     0276h              _initSystem
+     0282h              _initTimer
+     0296h              _startSendCode
+     0386h              _stopSendCode
+     038bh              _Timer
+     03c8h              _STE2007_SPI_TRANSFER9
+     03e6h              _STE2007_CHIPSELECT
+     03eeh              _ste2007_issuecmd
+     03fdh              _ste2007_issue_compoundcmd
+     040eh              _ste2007_setxy
+     0423h              _ste2007_clear
+     043bh              _ste2007_init
+     048ch              _ste2007_write
+     04c1h              _ste2007_putchar
+     04dch              _ste2007_putText
+     0502h              __DELAYX6
+     0502h              __DELAYX5
+     0503h              __DELAYX4
+     0503h              __DELAYX3
+     0504h              __DELAYX2
+     0504h              __DELAYX1
+     0505h              __DELAYX0
+     050ch              _builtin_holtek_mulhi3_isr00
+     051fh              _Crom2PromNext
+     0520h              _Crom2Prom
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     2000h     052fh    16%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0080h     0022h    26%
+     01h       0080h     0068h    81%
+     02h       0080h     0000h    0%
+     03h       0080h     0000h    0%
+     04h       0080h     0000h    0%
+     05h       0080h     0000h    0%
+     Total     0300h     008ah    17%
+
+Use Stack Count
+_main: 5
+_Timer: 1
+_ste2007_chipselect: 1
+_ste2007_invert: 2
+_ste2007_powersave: 2
+_ste2007_contrast: 2
+_ste2007_refreshrate: 2
+
+Call Tree
+    @dummy
+        _main (0)
+            _initSystem (1)
+            _initGPIO (1)
+            _ste2007_init (1)
+                _msDelay (2)
+                    __DELAYX (3)
+                _ste2007_issuecmd (2)
+                    _STE2007_CHIPSELECT (3)
+                    _STE2007_SPI_TRANSFER9 (3)
+                _ste2007_clear (2)
+                    _ste2007_setxy (3)
+                        _ste2007_issuecmd (4)
+                            _STE2007_CHIPSELECT (5)
+                            _STE2007_SPI_TRANSFER9 (5)
+                    _STE2007_CHIPSELECT (3)
+                    _STE2007_SPI_TRANSFER9 (3)
+                _ste2007_issue_compoundcmd (2)
+                    _STE2007_CHIPSELECT (3)
+                    _STE2007_SPI_TRANSFER9 (3)
+            _initTimer (1)
+            _ste2007_putText (1)
+                _ste2007_setxy (2)
+                    _ste2007_issuecmd (3)
+                        _STE2007_CHIPSELECT (4)
+                        _STE2007_SPI_TRANSFER9 (4)
+                _STE2007_CHIPSELECT (2)
+                _Crom2Prom (2)
+                _ste2007_write (2)
+                    _Crom2Prom (3)
+                    _STE2007_SPI_TRANSFER9 (3)
+            _msDelay (1)
+                __DELAYX (2)
+            _startSendCode (1)
+                _builtin_holtek_mulhi3_isr00 (2)
+                _Crom2Prom (2)
+                _Crom2Prom (2)
+            _ste2007_putchar (1)
+                _ste2007_setxy (2)
+                    _ste2007_issuecmd (3)
+                        _STE2007_CHIPSELECT (4)
+                        _STE2007_SPI_TRANSFER9 (4)
+                _STE2007_CHIPSELECT (2)
+                _ste2007_write (2)
+                    _Crom2Prom (3)
+                    _STE2007_SPI_TRANSFER9 (3)
+            _stopSendCode (1)
+    @dummy20
+        _Timer (0)
+            _Crom2Prom (1)
+            _Crom2Prom (1)
+    _ste2007_chipselect
+        _STE2007_CHIPSELECT (0)
+    _ste2007_invert
+        _ste2007_issuecmd (0)
+            _STE2007_CHIPSELECT (1)
+            _STE2007_SPI_TRANSFER9 (1)
+    _ste2007_powersave
+        _ste2007_issuecmd (0)
+            _STE2007_CHIPSELECT (1)
+            _STE2007_SPI_TRANSFER9 (1)
+    _ste2007_contrast
+        _ste2007_issuecmd (0)
+            _STE2007_CHIPSELECT (1)
+            _STE2007_SPI_TRANSFER9 (1)
+    _ste2007_refreshrate
+        _ste2007_issue_compoundcmd (0)
+            _STE2007_CHIPSELECT (1)
+            _STE2007_SPI_TRANSFER9 (1)
+
+HLINK: Program entry point at section '@code' (address 0) of file 'd:\project\remote\build\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
